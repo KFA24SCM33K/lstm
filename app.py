@@ -24,7 +24,8 @@ from datetime import datetime as dt
 import tensorflow as tf
 from tensorflow.python.keras import Sequential
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.python.keras.layers import Input, Dense, LSTM, Dropout
+from tensorflow.python.keras.layers import Input, Dense, Dropout
+from tensorflow.keras.layers import LSTM
 from tensorflow.python.keras.callbacks import EarlyStopping
 from sklearn.preprocessing import MinMaxScaler
 
